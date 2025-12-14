@@ -58,6 +58,8 @@
 .scrollIndicator {
     position: absolute;
     bottom: 2rem;
+    z-index: 10;
+
     left: 50%;
     transform: translateX(-50%);
     display: flex;

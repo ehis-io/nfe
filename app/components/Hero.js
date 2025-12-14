@@ -11,10 +11,11 @@ export default function Hero() {
                 </h1>
                 <p className={styles.subtitle}>Entertainment</p>
 
-                <div className={styles.scrollIndicator}>
-                    <span className={styles.scrollText}>Scroll</span>
-                    <div className={styles.line}></div>
-                </div>
+            </div>
+
+            <div className={styles.scrollIndicator}>
+                <span className={styles.scrollText}>Scroll</span>
+                <div className={styles.line}></div>
             </div>
 
             {/* Background Elements */}
