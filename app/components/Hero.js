@@ -1,0 +1,24 @@
+import styles from './Hero.module.css'
+
+export default function Hero() {
+    return (
+        <section className={styles.hero}>
+            <div className={styles.content}>
+                <h1 className={styles.title}>
+                    <span className={styles.neat}>NEAT</span>
+                    <br />
+                    <span className={styles.frequency}>FREQUENCY</span>
+                </h1>
+                <p className={styles.subtitle}>Entertainment</p>
+
+                <div className={styles.scrollIndicator}>
+                    <span className={styles.scrollText}>Scroll</span>
+                    <div className={styles.line}></div>
+                </div>
+            </div>
+
+            {/* Background Elements */}
+            <div className={styles.glow}></div>
+        </section>
+    )
+}
