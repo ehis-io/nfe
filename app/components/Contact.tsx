@@ -12,7 +12,7 @@ export default function Contact() {
 
                     <div className={styles.ctaWrapper}>
                         <a
-                            href="https://wa.me/+2348167446456"
+                            href="https://wa.me/2347039454998"
                             target="_blank"
                             rel="noopener noreferrer"
                             className={styles.whatsappButton}

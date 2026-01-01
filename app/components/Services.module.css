@@ -58,17 +58,11 @@
     opacity: 1;
 }
 
-/* Subtle colored glows for each service on hover */
-.sound:hover {
-    box-shadow: 0 20px 40px rgba(0, 243, 255, 0.05);
-}
-
-.light:hover {
-    box-shadow: 0 20px 40px rgba(255, 255, 255, 0.05);
-}
-
-.stage:hover {
-    box-shadow: 0 20px 40px rgba(255, 0, 200, 0.05);
+/* Subtle emerald glows for each service on hover */
+.wiring:hover,
+.solar:hover,
+.industrial:hover {
+    box-shadow: 0 20px 40px var(--emerald-glow);
 }
 
 .iconWrapper {
@@ -85,20 +79,13 @@
 .card:hover .iconWrapper {
     transform: scale(1.1);
     opacity: 1;
-    color: var(--neon-blue);
-    /* Default hover color, overridden below */
+    color: var(--emerald);
 }
 
-.sound:hover .iconWrapper {
-    color: var(--neon-blue);
-}
-
-.light:hover .iconWrapper {
-    color: white;
-}
-
-.stage:hover .iconWrapper {
-    color: var(--neon-pink);
+.wiring:hover .iconWrapper,
+.solar:hover .iconWrapper,
+.industrial:hover .iconWrapper {
+    color: var(--emerald);
 }
 
 .cardContent {

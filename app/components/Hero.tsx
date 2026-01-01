@@ -5,11 +5,11 @@ export default function Hero() {
         <section className={styles.hero}>
             <div className={styles.content}>
                 <h1 className={styles.title}>
-                    <span className={styles.neat}>NEAT</span>
+                    <span className={styles.neat}>PRIME</span>
                     <br />
-                    <span className={styles.frequency}>FREQUENCY</span>
+                    <span className={styles.frequency}>ELECTRICAL</span>
                 </h1>
-                <p className={styles.subtitle}>Entertainment</p>
+                <p className={styles.subtitle}>Electrical & Solar Solutions</p>
 
             </div>
 

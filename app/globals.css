@@ -2,10 +2,11 @@
   --background: #050505;
   --foreground: #ffffff;
 
-  /* Refined Palette - Subtler, more premium */
-  --neon-blue: #00f3ff;
-  --neon-purple: #bd00ff;
-  --neon-pink: #ff00c8;
+  /* Electrical & Solar Palette */
+  --emerald: #22c55e;
+  --emerald-glow: rgba(34, 197, 94, 0.4);
+  --emerald-dark: #166534;
+  --accent: #22c55e;
 
   /* Glassmorphism Vars */
   --glass-bg: rgba(255, 255, 255, 0.03);

@@ -4,7 +4,7 @@ import styles from './Navbar.module.css'
 import { useState, useEffect } from 'react'
 
 export default function Navbar() {
-    const [scrolled, setScrolled] = useState(false)
+    const [scrolled, setScrolled] = useState<boolean>(false)
 
     useEffect(() => {
         const handleScroll = () => {
@@ -19,7 +19,7 @@ export default function Navbar() {
             <div className="container">
                 <nav className={styles.nav}>
                     <Link href="/" className={styles.logo}>
-                        Neat <span className={styles.logoSpan}>Frequency</span>
+                        Prime<span className={styles.logoSpan}>Electrical</span>
                     </Link>
                     <ul className={styles.list}>
                         <li><Link href="#" className={styles.link}>Work</Link></li>

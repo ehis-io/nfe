@@ -4,13 +4,17 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Neat Frequency Entertainment | Sound, Light, Stage',
-  description: 'Premium Sound, Light, and Stage entertainment solutions.',
+  title: 'Prime Electrical | Expert Home Wiring & Solar Installation',
+  description: 'Premium electrical engineering and solar energy solutions for your home and business.',
 }
 
 import Navbar from './components/Navbar'
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en">
       <body className={inter.className}>
