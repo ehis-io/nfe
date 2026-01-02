@@ -3,6 +3,17 @@ import styles from './Hero.module.css'
 export default function Hero() {
     return (
         <section className={styles.hero}>
+            <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                className={styles.videoBackground}
+            >
+                <source src="/videos/hero-bg.mp4" type="video/mp4" />
+            </video>
+            <div className={styles.videoOverlay}></div>
+
             <div className={styles.content}>
                 <h1 className={styles.title}>
                     <span className={styles.neat}>PRIME</span>
